@@ -1,6 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../Declaratively"
+      name = "Declaratively">
+      <Group
+         location = "group:Tests"
+         name = "Tests">
+         <Group
+            location = "group:DeclarativelyTests"
+            name = "DeclarativelyTests">
+            <FileRef
+               location = "group:DeclarativelyTests.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:Package.swift">
+      </FileRef>
+      <Group
+         location = "group:Sources"
+         name = "Sources">
+         <Group
+            location = "group:Declaratively"
+            name = "Declaratively">
+            <Group
+               location = "group:Core"
+               name = "Core">
+               <FileRef
+                  location = "group:View.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:EmptyView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:UIHostingViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ViewBuilder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:UIViewRepresentable.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Utilities"
+               name = "Utilities">
+               <FileRef
+                  location = "group:Modifiable.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Components"
+               name = "Components">
+               <FileRef
+                  location = "group:Spacer.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HStack.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:VStack.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Text.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:ViewModifiers"
+               name = "ViewModifiers">
+               <FileRef
+                  location = "group:Edge.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:EdgeInsets.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
       location = "self:">
    </FileRef>
